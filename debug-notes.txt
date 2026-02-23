@@ -1,0 +1,15 @@
+AFTER FIRST FIX ATTEMPT:
+The input bar (element 8) is still behind the BottomNav (elements 9-16). 
+Looking at the screenshot, the input field is at the same level as the nav icons.
+The fixed bottom-[calc(4rem+env(safe-area-inset-bottom,0px))] should position it above the nav.
+But it seems the calc is not working or the BottomNav safe-bottom class adds extra height.
+
+The BottomNav has: fixed bottom-0, h-16 (4rem), safe-bottom (padding-bottom: max(1rem, env(safe-area-inset-bottom)))
+So the total BottomNav height is: 4rem + max(1rem, env(safe-area-inset-bottom)) = at least 5rem on desktop.
+
+I need to adjust the bottom calc to account for the safe-bottom padding too.
+Let me use bottom-[calc(5rem+env(safe-area-inset-bottom,0px))] or better yet, use a simpler approach.
+
+Actually the issue might be that the h-[100dvh] container is clipping the fixed element.
+A fixed element inside a flex container with overflow might not work as expected.
+Let me remove the h-[100dvh] and use a different approach.

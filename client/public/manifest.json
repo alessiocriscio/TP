@@ -1,0 +1,28 @@
+{
+  "name": "TripPulse - AI Travel Planner",
+  "short_name": "TripPulse",
+  "description": "Your AI-powered travel planning assistant. Find the best flights and plan your perfect trip.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f7f4",
+  "theme_color": "#1a56db",
+  "icons": [
+    {
+      "src": "https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663362490056/kTRnAXaOJKZwmwKz.png?Expires=1803095704&Signature=UldkWCQ6VI8ge0YIbZAXgC77Z6Dp7lhY6TAasZRQ7fg1aJzKilngOPAGeFTZjrCH3YPb3BDkApb4A-hPIJAm0pMl5tHS-v58Agx0dCdh2OskMJUt~WoFwAgTq8hqpvu6ZhSfjPuWbwImCIuQC2s2Jl79CV6xeUq9XxeNCeUzGNDlqdKvAkPZJUp8jhkBHzKgLk9AfUcStvstbr6z4mtTHiDyYUY9~GFWk0NrgSG1BBp54kdaRMDDop-QxbHlZqsAAcCg8G-EW12nMuF~y3ORnMdqP7sXjqxQt6vxulNsAW80v78hBwvEHQRUakWwt9oOe7yWChuXOqy~vopOJ4eDoA__&Key-Pair-Id=K2HSFNDJXOU9YS",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663362490056/hVFzENLpJFQSMGEp.png?Expires=1803095704&Signature=blGH42u3Pi8XhSjNZMkOmq9RCOERaoRlZycSMsdc8zLmqLHUshRGT350nrJG-cAysLbSxxEwIOnj-6WNV8PMIJTIcIFde-JeDWkxKwCZBdEni6KnG2ysyqKh90abgMNop4HkOBcidZNr3zCLk1hJfL8ZgtQ-fXvHDURSoIKJ~mW6wm~UNLyTYBOzNE8SE6WBKV8fYPwr8Ot43T91vIUaBT6~nzkWzORgPwnV2thV~W9WKer4fD3Uqc3GPsyAgHycg3wijQgpLpcKGAMAnofUSfeAOPf16nJrw1EEKeHAikaeJa8I9oVvz56Jvnkuk7VKTh~gmky8CAWNDs1ShzsH2Q__&Key-Pair-Id=K2HSFNDJXOU9YS",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "lang": "en",
+  "scope": "/",
+  "prefer_related_applications": false
+}
